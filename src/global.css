@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden 
+    }
+#root {
+    height: 100%;
+    width: 100%;
+    }
+body {
+    background-image: url('./assets/background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.ultra-regular {
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ultra-11 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 11px
+}  
+.ultra-18 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 18px
+}  
+.ultra-24 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 24px
+}
+.ultra-36 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 36px
+}
+.ultra-48 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-size: 48px
+}
+.atma-18 {
+    color: white;
+    font-family: "Atma", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+.atma-20 {
+    color: white;
+    font-family: "Atma", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+.atma-24 {
+    color: white;
+    font-family: "Atma", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+}
+.atma-28 {
+    color: white;
+    font-family: "Atma", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 28px;
+}

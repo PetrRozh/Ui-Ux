@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+header {
+    display: flex;
+    margin: 0;
+    height: 80px; 
+    width: 100vw;
+    margin-left: 40px;
+}
+
+.container {
+    font-weight: 500;
+    padding: 12px;
+    display: flex;
+    font-size: 18px; 
+    justify-content: space-between;
+}
+
+.button-header {
+    margin-left: 20px;
+    padding: 15px 30px; 
+    font-family: "Ultra", serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 2px solid #e99400; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    background-color: #e99400;
+}
+
+.special-button {
+    margin-left: 20px;
+    padding: 15px 30px; 
+    font-family: "Ultra", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: 2px solid #e99400; 
+    border-radius: 20px;
+    cursor: pointer;
+}
